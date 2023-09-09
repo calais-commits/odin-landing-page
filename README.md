@@ -31,7 +31,7 @@ To make this repository working in your local machine you need only a browser.
 
 ## Acknowledgments and project page
 
-[Odin project landing page assignment](ttps://www.theodinproject.com/lessons/foundations-landing-page)
+[Odin project landing page assignment](https://www.theodinproject.com/lessons/foundations-landing-page)
 
 ## Show your support
 
