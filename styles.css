@@ -6,80 +6,80 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --ubuntu-font: 'Ubuntu', sans-serif;
 }
 
-html{
-    font-family:var(--ubuntu-font);
+html {
+    font-family: var(--ubuntu-font);
 }
 
-button{
+button {
     font-family: var(--ubuntu-font);
     background: linear-gradient(to left, #a6e643, #65cd9b 50%);
     font-weight: 700;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-.first-section, .second-container, .section-footer{
+.first-section, .second-container, .section-footer {
     background-color: #08170e;
     padding-top: 1rem;
 }
 
-.navbar, .section-one, .section-two, .section-three{
+.navbar, .section-one, .section-two, .section-three {
     padding-left: 5rem;
     padding-right: 5rem;
 }
 
-.navbar{
+.navbar {
     height: 10rem;
 }
 
-.navbar img{
+.navbar img {
     height: 10vh;
 }
 
-.navbar, ul{
+.navbar, ul {
     display: flex;
 }
 
-.navbar ul{
+.navbar ul {
     margin-left: auto;
     color: #e5e7eb;
     font-size: 18px;
 }
 
-.navbar ul li{
+.navbar ul li {
     list-style: none;
     justify-content: space-between;
     margin-right: 1.5rem;
 }
 
-.section-one{
+.section-one {
     display: flex;
     padding-bottom: 3rem;
     padding-bottom: 1.3rem;
 }
 
-.section-one h1{
+.section-one h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
     padding-bottom: 1rem;
 }
 
-.section-one p{
+.section-one p {
     color: #e5e7eb;
     font-size: 18px;
     margin-bottom: 1rem;
     line-height: 1.5rem;
 }
 
-.btn-one{
+.btn-one {
     margin-top: 2rem;
     background-color: #3882f6;
     color: #f9faf8;
@@ -92,66 +92,81 @@ a{
     font-size: 17px;
 }
 
-.section-one img{
+.section-one img {
     width: 95%;
     margin-left: 1rem;
 }
 
-.section-two, .section-four{
+.section-two, .section-four {
     background-color: #9eb96683;
 }
 
-.section-two{
-    height: 60vh;
+.section-two {
     padding-top: 3rem;
+    padding-bottom: 20rem;
+    max-height: 110vh;
+    overflow:auto
 }
 
-.section-two-title{
+.section-two-title {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 
-.section-two h1{
+.section-two h1 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
 }
 
-.section-two-images{
+.section-two-images {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
-.skills-div{
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 3rem;
+    width: 11rem;
+}
+
+.skills-div {
     line-height: 1.4rem;
 }
 
-.skills{
-    
-    font-size: 14px;
+.skills {
+    font-size: 16px;
 }
 
-.img-1, .img-2, .img-3, .img-4{
+.imgs-container {
     text-align: center;
     align-items: center;
-    width: 10rem;
-    height: 10rem;
-    border: 5px solid #2d6149 ;
     margin: 1rem;
+    width: 11rem;
+    height: 11rem;
 }
 
-.section-two-images img{
+.img-1, .img-2, .img-3, .img-4 {
+    object-fit: contain;
+    border: 5px solid #2d6149;
+}
+
+.section-two-images img {
     width: 100%;
 }
 
-.section-three{
+.section-three {
     background-color: #e5e7eb;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-.section-three h3{
+.section-three h3 {
     padding-top: 1rem;
     font-size: 36px;
     font-weight: lighter;
@@ -159,19 +174,19 @@ a{
     color: #1f2937;
 }
 
-.author{
+.author {
     font-weight: bold;
     text-align: end;
     padding-top: 3rem;
     padding-bottom: 1rem;
 }
 
-.section-four{
+.section-four {
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
 
-.call{
+.call {
     display: flex;
     background-color: #08170e;
     width: 70%;
@@ -182,20 +197,20 @@ a{
     color: #f9fAf8;
 }
 
-.left-side-four{
+.left-side-four {
     text-align: start;
     margin: auto 0;
     line-height: 1.4rem;
 }
 
-.right-side-four{
+.right-side-four {
     display: flex;
     margin: 0 0 0 auto;
     justify-content: end;
     align-content: center;
 }
 
-.call button{
+.call button {
     margin: 1rem;
     background-color: #08170e;
     border: 1px solid #f9fAf8;
@@ -205,13 +220,13 @@ a{
     width: 5rem;
 }
 
-.section-footer{
+.section-footer {
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.section-footer p{
+.section-footer p {
     color: #f9fAf8;
 }
