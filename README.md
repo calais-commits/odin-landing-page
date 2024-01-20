@@ -18,7 +18,7 @@ This site was not made with responsive design, only for desktop view. So, it wil
 
 ## Live Demo
 
-[Live Demo Link](https://comidita123.github.io/odin-landing-page/)
+[Live Demo Link](https://calais-commits.github.io/odin-landing-page/)
 
 ### Prerequisites
 To make this repository working in your local machine you need only a browser.
