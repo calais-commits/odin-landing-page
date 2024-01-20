@@ -27,7 +27,7 @@ To make this repository working in your local machine you need only a browser.
 
 👤 **Jesús Meléndez**
 
-- Github: [@comidita123](https://github.com/comidita123)
+- Github: [@calais-commits](https://github.com/calais-commits)
 
 ## Acknowledgments and project page
 
